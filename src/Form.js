@@ -25,7 +25,7 @@ const Form =(props)=> {
     setInput((prevInput) => {
       return {
         ...prevInput,
-        [inputid]: value,
+        [inputid]: +value,
       };
     });
   };

@@ -37,7 +37,7 @@ function App() {
     <div>
       <Header />
       <Form onCalcualte={calculateHandler} />
-      {!input && <p>No entries yet.</p>}
+      {!input && <p><span id="displays">No entries yet.</span></p>}
       {input && (
         <Tables
           tableData={yearlyData}
