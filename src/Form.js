@@ -34,7 +34,7 @@ const Form =(props)=> {
       <form onSubmit={submitHandler} className="form">
         <div className="input-group">
           <p>
-            <label htmlFor="current-savings">Current Savings ($)</label>
+            <label htmlFor="current-savings">Current Savings</label>
             <input
               onChange={(e) =>
                 inputChangeHandler("current-savings", e.target.value)
@@ -45,7 +45,7 @@ const Form =(props)=> {
             />
           </p>
           <p>
-            <label htmlFor="yearly-contribution">Yearly Savings ($)</label>
+            <label htmlFor="yearly-contribution">Yearly Savings</label>
             <input
               onChange={(e) =>
                 inputChangeHandler("yearly-contribution", e.target.value)

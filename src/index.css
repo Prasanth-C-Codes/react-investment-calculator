@@ -63,7 +63,27 @@ body {
   color: #c2e9e0;
   font-size: 1rem;
 }
+select {
+  padding: 0.5rem;
+  border: 1px solid #76c0ae;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: #c2e9e0;
+  font-size: .8rem;
 
+}
+select option {
+  background-color:#91e1d0;
+  color: #113c32; /*  text */
+}
+select option:hover {
+  outline: none;
+  background-color: #316f4e;
+}
+ select option:checked, select option:focus {
+  background-color: #113c32; /* background */
+  color: #c2e9e0; /* white text */
+}
 .actions {
   display: flex;
   justify-content: center;
@@ -120,4 +140,10 @@ button:hover {
 #displays{
  display: flex;
  justify-content: center;
+}
+.selection{
+  display: flex;
+ align-items: center;
+ justify-content: center;
+  
 }
